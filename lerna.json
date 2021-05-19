@@ -47,13 +47,14 @@
   ],
   "command": {
     "publish": {
-      "message": "chore(release): publish %s"
+      "message": "chore(release): publish %s",
+      "registry": "https://npm.pkg.github.com"
     },
     "create": {
       "homepage": "https://github.com/nervjs/taro",
       "license": "MIT"
     }
   },
-  "version": "3.2.8",
+  "version": "3.2.9",
   "npmClient": "yarn"
 }
